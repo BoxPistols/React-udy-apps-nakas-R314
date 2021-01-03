@@ -3,5 +3,6 @@
     "debug.console.fontSize": 15,
     "terminal.integrated.fontSize": 15,
     "prettier.semi": false,
-    "editor.acceptSuggestionOnCommitCharacter": false
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.tabCompletion": "on"
 }

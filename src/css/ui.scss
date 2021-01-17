@@ -1,16 +1,34 @@
 button {
-    padding: 12px 24px;
+  padding: 12px 24px;
 
-    background-color: turquoise;
+  background-color: turquoise;
 }
 
 .cold {
-    color: turquoise;
+  color: turquoise;
 }
 .hot {
-    color: crimson;
+  color: crimson;
 }
 
 .normal {
-    color: yellowgreen;
+  color: yellowgreen;
+}
+
+.gf_org {
+  max-width: 90vw;
+  margin: auto;
+  justify-content: center;
+}
+.gf_mol {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 24px;
+  > img {
+    max-width: 20vw;
+    display: block;
+    width: auto;
+    box-shadow: 2px 2px 12px #eee;
+    border: 1px solid #ccc;
+  }
 }
